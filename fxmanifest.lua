@@ -14,7 +14,9 @@ client_scripts {
     "client/import.lua",
     "client/functions.lua",
     "client/main.lua",
-    "modules/**/client/*"
+    "modules/callbacks/client/*.lua",
+    "modules/player/client/*.lua",
+    "modules/spawn/client/*.lua"
 }
 
 server_scripts {
@@ -22,5 +24,7 @@ server_scripts {
     "server/import.lua",
     "server/functions.lua",
     "server/main.lua",
-    "modules/**/server/*"
+    "modules/callbacks/server/*.lua",
+    "modules/player/server/*.lua",
+    "modules/spawn/server/*.lua"
 }

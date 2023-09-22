@@ -9,5 +9,7 @@ CreateThread(function()
             skipFade = false
         })
 
+        NX.CreatePlayer()
+
     end
 end)
