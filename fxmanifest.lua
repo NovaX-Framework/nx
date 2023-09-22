@@ -5,9 +5,9 @@ author 'NovaX Framework'
 lua54 'yes'
 
 shared_scripts {
+    'framework.lua',
     "config.lua",
     "shared/*"
-
 }
 
 client_scripts {
